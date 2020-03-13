@@ -20,7 +20,7 @@ static MicroBitI2C i2c(I2C_SDA0, I2C_SCL0);
 
 int16_t placeholder;
 
-static const char MAX30105_ADDRESS = 0xAE;
+static const char MAX30105_ADDRESS = 0x57;
 // Status Registers
 static const char MAX30105_INTSTAT1 =		0x00;
 static const char MAX30105_INTSTAT2 =		0x01;
